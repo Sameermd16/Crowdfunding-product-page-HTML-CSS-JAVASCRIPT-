@@ -13,6 +13,8 @@
     --Dark-cyan: hsl(176, 72%, 28%);
     --Black: hsl(0, 0%, 0%);
     --Dark-gray: hsl(0, 0%, 48%);
+    --box-shadow: 0 0 3px rgba(0, 0, 0, 0.2);
+
 }
 body{
     font-family: 'Commissioner', sans-serif;
@@ -77,14 +79,14 @@ main{
 }
 .mastercraft-div{
     border-radius: 10px;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    box-shadow: var(--box-shadow);
     padding-top: 30px;
     z-index: 99;
 }
 .numbers_div{
     padding: 40px;
     margin-top: 20px;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    box-shadow: var(--box-shadow);
     border-radius: 10px;
 }
 .number_boxes{
@@ -109,7 +111,7 @@ main{
 }
 .green_bar{
     width: 75%;
-    height: 12px;
+    height: 10px;
     background-color: var(--Moderate-cyan);
     border-radius: 50px;
 }
@@ -160,12 +162,29 @@ main{
     font-family: inherit;
 }
 
-
-
-
-
-
-
+.about_wrapper{
+    padding: 30px;
+    box-shadow: var(--box-shadow);
+    margin-top: 20px;
+    border-radius: 10px;
+}
+.about_wrapper > .about_article> h3 {
+    margin: 10px 0 30px 0;
+}
+.about_article > p {
+    color: var(--Dark-gray);
+    line-height: 25px;
+}
+.about_article{
+    margin-bottom: 30px;
+}
+.bamboo_stand {
+    padding: 30px 20px;
+}
+.number_btn {
+    margin-top: 25px;
+    border: 1px solid black;
+}
 
 
 
