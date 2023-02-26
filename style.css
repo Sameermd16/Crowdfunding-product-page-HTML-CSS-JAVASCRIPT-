@@ -155,13 +155,16 @@ main{
 }
 .number_btn > button{
     border-radius: 50px;
-    padding: 0 30px;
+    padding: 12px 25px;
     border: 0;
     background-color: var(--Moderate-cyan);
     color: white;
     font-family: inherit;
+    cursor: pointer;
 }
-
+.number_btn > button:hover {
+    background-color: var(--Dark-cyan);
+}
 .about_wrapper{
     padding: 30px;
     box-shadow: var(--box-shadow);
@@ -183,16 +186,39 @@ main{
 }
 .number_btn {
     margin-top: 25px;
-    border: 1px solid black;
 }
-
-
-
-
-
-
-
-
+.number_left > span {
+    color: var(--Dark-gray);
+}
+.bamboo_heading {
+    margin-bottom: 30px;
+}
+.bamboo_stand > p {
+    color: var(--Dark-gray);
+    line-height: 25px;
+}
+.stands_div {
+    margin-bottom: 20px;
+}
+.mahogany_div {
+    opacity: 50%;
+}
+.number_btn > .out_of_stock {
+    background-color: var(--Dark-gray);
+}
+.number_btn_stock{
+    display: flex;
+    justify-content: space-between;
+}
+.number_btn_stock > button{
+    border-radius: 50px;
+    padding: 12px 25px;
+    border: 0;
+    background-color: var(--Dark-gray);
+    color: white;
+    font-family: inherit;
+    cursor: pointer;
+}
 
 
 
