@@ -53,18 +53,14 @@ body {
 }
 .pledge{
   color: hsl(176, 72%, 28%);
-  margin-bottom: 20px;
-  display: block;
 }
-.button_stand{
-  background-color: hsl(176, 72%, 28%);
-  padding: 10px 30px;
-  border-radius: 25px;
-  color: white;
+
+.data > article:last-child button{
+  background-color: #9b9b9b68;
 }
-.pledge_para {
-  color: hsl(0, 0%, 48%);
+.data > article > p {
+  color: #9b9b9b;
 }
-.stand_box {
-  border: 1px solid hsla(0, 0%, 48%, 0.441);
+.data > article > h3 {
+  color: #9b9b9b;
 }
