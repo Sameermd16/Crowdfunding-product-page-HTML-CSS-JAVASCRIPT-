@@ -3,11 +3,26 @@ body {
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  background-color: #f3f4f6;
 }
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.btn{
+  background-color: hsl(176, 72%, 28%);
+}
+.mastercraftlogo{
+  position: absolute;
+  top: -25px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.gray_bar{
+  height: 12px;
+  width: 100%;
+  background-color: rgba(128, 128, 128, 0.37);
+  border-radius: 25px;
+}
+.cyan_bar{
+  height: 12px;
+  width: 80%;
+  background-color: hsl(176, 72%, 28%);
+  border-radius: 25px;
 }
