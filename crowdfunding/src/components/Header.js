@@ -1,6 +1,7 @@
 import React, {useState} from 'react'
 import logo from "../images/logo.svg"
 import hamburger from "../images/icon-hamburger.svg"
+import close from "../images/icon-close-menu.svg"
 
 const Header = () => {
     const [isOpen, setIsOpen] = useState(false)
@@ -20,8 +21,12 @@ const Header = () => {
         </nav>
         )};
         <div>
-            <img src= {hamburger} alt="hamburger_icon" className="w-6 cursor-pointer"
-            onClick={() => setIsOpen(!isOpen)}/>
+            {isOpen ? (
+                <img src={close} alt="close_icon" className="w-6 cursor-pointer" onClick={() => setIsOpen(!isOpen)}/> 
+            ) : (
+                <img src= {hamburger} alt="hamburger_icon" className="w-6 cursor-pointer"
+                onClick={() => setIsOpen(!isOpen)}/>
+            )}
         </div>
     </header>
     </>

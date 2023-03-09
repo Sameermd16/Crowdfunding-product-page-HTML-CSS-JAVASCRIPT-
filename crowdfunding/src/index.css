@@ -55,7 +55,7 @@ body {
   color: hsl(176, 72%, 28%);
 }
 
-.data > article:last-child button{
+/* .data > article:last-child button{
   background-color: #9b9b9b68;
 }
 .data > article > p {
@@ -63,4 +63,4 @@ body {
 }
 .data > article > h3 {
   color: #9b9b9b;
-}
+} */

@@ -3,7 +3,6 @@ import data from "../data"
 import Pledges from "./Pledges"
 
 const About = () => {
-    const [cards, setCards] = useState(data);
 
   return (
     <>
