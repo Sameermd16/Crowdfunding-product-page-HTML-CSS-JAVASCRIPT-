@@ -9,7 +9,7 @@ const Showcase = () => {
         <img src={mobileHero} alt="mobile_background_img"/>
     </section>
     <section className="hidden md:block">
-      <img src={desktopHero} alt="desktop_hero"/>
+      <img src={desktopHero} alt="desktop_hero" className="w-full"/>
     </section>
     </>
   )

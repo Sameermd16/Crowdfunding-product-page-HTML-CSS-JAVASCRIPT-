@@ -6,7 +6,7 @@ const About = () => {
 
   return (
     <>
-     <section className = "mt-5 mx-5 mb-5 px-5 py-5 shadow-sm rounded-lg bg-white">
+     <section className = "mt-5 mx-5 mb-5 px-5 py-5 shadow-sm rounded-lg bg-white lg:w-2/3 lg:mx-auto mb-20">
         <div>
             <article>
                 <h3 className = "font-bold pt-3 pb-6 text-xl">About this project</h3>    

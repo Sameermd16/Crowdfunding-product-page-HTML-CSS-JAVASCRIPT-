@@ -5,7 +5,7 @@ import closeModal from "../images/icon-close-modal.svg"
 const Modal = () => {
   return (
     <>
-    <section className="bg-white mx-5 py-10 px-5 rounded-lg border-2">
+    <section className="bg-white mx-5 py-10 px-5 rounded-lg border-2 mt-5 lg:w-2/3 lg:mx-auto">
         <div className="flex justify-between">
           <div>
             <h4 className="font-bold text-xl">Back this project</h4>

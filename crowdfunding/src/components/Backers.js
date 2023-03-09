@@ -3,7 +3,7 @@ import React from 'react'
 const Backers = () => {
   return (
     <>
-     <section className="py-5 px-5 bg-white rounded-lg shadow-sm mt-5 mx-5">
+     <section className="py-5 px-5 bg-white rounded-lg shadow-sm mt-5 mx-5 lg:w-2/3 lg:mx-auto">
         <div className="numbers_box">
         <div className=" ">
             <p>$89,914 <br/> <span>of $100,000 backed</span></p>

@@ -6,7 +6,7 @@ const Pledges = () => {
 
   return (
     <>
-     <div className="data">
+     <div className="data lg:w-2/3 lg:mx-auto">
                 {cards.map((card) => {
                     const {id, title, pledge, desc, left, button} = card
 
