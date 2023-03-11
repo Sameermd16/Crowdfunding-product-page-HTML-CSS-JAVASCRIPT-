@@ -72,5 +72,18 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+  position: absolute;
   
+}
+.thanks_para {
+  color: hsl(176, 72%, 28%);
+}
+.thanks_div > button {
+  margin-top: 20px;
+  width: 60%;
+  background-color: hsl(176, 72%, 28%);
+  color: white;
+  padding: 10px;
+  border-radius: 25px;
+  cursor: pointer;
 }
