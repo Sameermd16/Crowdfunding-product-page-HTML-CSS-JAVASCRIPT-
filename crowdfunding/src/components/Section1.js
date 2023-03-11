@@ -4,6 +4,14 @@ import bookmarkIcon from "../images/icon-bookmark.svg"
 
 
 const Section1 = () => {
+
+  function getPledge () {
+    const backThisProject = document.getElementById("backThisProject");
+    const pledgeSection = document.getElementById("pledgeSection");
+    pledgeSection.style.display = "block";
+    pledgeSection.style.zIndex = "999";
+
+  }
   return (
     <>
       <section className="bg-white mx-5 px-5 py-5 -mt-12 rounded-lg relative shadow-sm lg:w-2/3 lg:mx-auto">
@@ -13,7 +21,7 @@ const Section1 = () => {
             <p className="pb-5 text-sm">  A beautiful & handcrafted monitor stand to reduce neck and eye strain.</p>
         </div>
         <div className="flex justify-between">
-            <button className="btn rounded-full px-8 text-white text-sm">Back this project</button>
+            <button className="btn rounded-full px-8 text-white text-sm" id='backThisProject' onClick={getPledge}>Back this project</button>
             <img src={bookmarkIcon} alt="bookmark_icon"/>
         </div>
       </section>
