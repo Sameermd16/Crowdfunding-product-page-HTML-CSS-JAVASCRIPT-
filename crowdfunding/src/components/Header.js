@@ -12,7 +12,7 @@ const Header = () => {
             <img src= {logo} alt="logo_icon"/>
         </div>
         {isOpen && (
-            <nav className="absolute w-3/4 ml-8 mt-56">
+            <nav className="absolute w-3/4 ml-8 mt-56 ">
             <ul className= "bg-white shadow-2xl rounded-xl px-5 py-5">
                 <li className="py-2 border-b border-gray-200"><a href='#' >About</a></li>
                 <li className="py-2 border-b border-gray-200"><a href='#' >Discover</a></li>
