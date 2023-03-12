@@ -10,8 +10,12 @@ const Section1 = () => {
     const pledgeSection = document.getElementById("pledgeSection");
     pledgeSection.style.display = "block";
     pledgeSection.style.zIndex = "999";
-
   }
+  const bookmarkBtn = document.getElementById("bookmarkBtn");
+  function bookmark () {
+    bookmarkBtn.innerHTML = "Bookmarked";
+  }
+  
   return (
     <>
       <section className="bg-white mx-5 px-5 py-5 -mt-12 rounded-lg relative shadow-sm lg:w-2/3 lg:mx-auto">
@@ -22,7 +26,10 @@ const Section1 = () => {
         </div>
         <div className="flex justify-between">
             <button className="btn rounded-full px-8 text-white text-sm" id='backThisProject' onClick={getPledge}>Back this project</button>
-            <img src={bookmarkIcon} alt="bookmark_icon"/>
+            <div className='flex relative'>
+              <img src={bookmarkIcon} alt="bookmark_icon" className='absolute left-4 cursor-pointer'/>
+              <button className='bookmark_btn flex items-center gap-5 border bordery-black-600 rounded-full px-10 pr-4 py-4 ml-10' type="button" id='bookmarkBtn' onClick={bookmark} >Bookmark</button>
+            </div>
         </div>
       </section>
     </>
